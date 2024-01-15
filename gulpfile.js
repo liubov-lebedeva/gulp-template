@@ -25,7 +25,7 @@ function html() {
 	return src('app/**/*.html')
 	.pipe(webpHtmlNosvg())
 	.pipe(dest('dist'))
-};
+}
 
 function scripts() {
 	return src([
